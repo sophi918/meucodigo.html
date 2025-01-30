@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: family;
+}
+
+.nome Estudando a Disney{
+    color: rgba(40, 159, 206, 0.537);
+    background-color: rgb(2, 103, 191);
+}
+
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1280px;
+    margin:0 auto;
+    padding:0 2%;
+}
+
+header{
+    padding:20px 0;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.logo{
+    width: 50%;
+    background-color: rgb(0, 0, 0);
+}
+
+
+.menu{
+    padding-top: 30px;
+    width: 40%;
+    text-align: right;
+}
+
+.menu a{
+    color: rgba(0, 0, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 15px;
+    
+}
+p {
+color: aliceblue;
+text-align: justify;
+}
+
+.texto-inicio{
+    margin-top: 100px;
+}
+
+.texto-inicio h1{
+    font-size: 50px;
+    color:rgb(0, 0, 0) ;
+
+}
+
+.texto-inicio p{
+    margin: 20px 0;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: justify;
+    
+}
+
+.texto-inicio h2{
+    color: rgb(18, 1, 1);
+}
+
+.texto-inicio text{
+    text-align: justify;
+    font-weight:central;
+}
+
+.texto-inicio .cabecalho_menu{
+display: 1,5% 0% 1,5% 10%;
+color: aliceblue;
+}
+.cabecalho_menu{
+    display: flex;
+    gap: 50px;
+    color: #128cbd98;
+}
+.cabecalho_menu_link{
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: medium;
+    font-weight: normal;
+    color: black;
+    text-decoration: none;
+}
+    

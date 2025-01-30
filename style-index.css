@@ -1,13 +1,14 @@
 *{
     margin: 0;
-    padding: 0;
+    padding: 0 0 0 0;
     box-sizing: border-box;
-    font-family: family;
+    font-family: lago de águia;
+    background-color: rgba(81, 15, 236, 0.836);
 }
 
 .nome Estudando a Disney{
     color: rgba(40, 159, 206, 0.537);
-    background-color: rgb(2, 103, 191);
+   
 }
 
 .center{
@@ -19,32 +20,25 @@
 }
 
 header{
-    padding:20px 0;
-    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: left;
+    justify-content: center;
+    padding: 20px 0;
+    background: rgb(0, 24, 75);
 
 }
-
-.logo{
-    width: 50%;
-    background-color: rgb(0, 0, 0);
-}
-
-
-.menu{
-    padding-top: 30px;
-    width: 40%;
-    text-align: right;
-}
-
-.menu a{
-    color: rgba(0, 0, 0, 0);
-    text-decoration: none;
-    font-weight: bold;
-    margin-right: 15px;
+header img {
+    width:150px;
+    height: auto;
+    margin-bottom: 0;
     
 }
+ 
+
 p {
-color: aliceblue;
+color: rgb(0, 0, 0);
 text-align: justify;
 }
 
@@ -54,13 +48,13 @@ text-align: justify;
 
 .texto-inicio h1{
     font-size: 50px;
-    color:rgb(0, 0, 0) ;
+    color:rgba(75, 47, 201, 0.973) ;
 
 }
 
 .texto-inicio p{
     margin: 20px 0;
-    color: black;
+    color: preto;
     font-size: 14px;
     font-weight: bold;
     text-align: justify;
@@ -68,7 +62,7 @@ text-align: justify;
 }
 
 .texto-inicio h2{
-    color: rgb(18, 1, 1);
+    color: rgba(75, 47, 201, 0.973);
 }
 
 .texto-inicio text{
@@ -76,20 +70,43 @@ text-align: justify;
     font-weight:central;
 }
 
-.texto-inicio .cabecalho_menu{
-display: 1,5% 0% 1,5% 10%;
-color: aliceblue;
-}
-.cabecalho_menu{
+
+
+nav {
     display: flex;
-    gap: 50px;
-    color: #128cbd98;
+    flex-wrap: wrap;
+    justify-content: center;
 }
-.cabecalho_menu_link{
-    font-family: Verdana, Tahoma, sans-serif;
-    font-size: medium;
-    font-weight: normal;
-    color: black;
+
+nav a {
+    margin: 0 20px;
+    position: relative;
     text-decoration: none;
+    color: #F2E0C9;
+    font-weight: bold;
+    font-size: 16px;
 }
-    
+
+nav a:hover {
+    color: #cacbee;
+}
+
+main {
+    padding: 20px;
+    text-align: left;
+}
+
+#frase-de-efeito {
+    color: #8C3746;
+    font-weight: 600;
+    letter-spacing: 1px; 
+    text-shadow: 0px 0px 8px rgba(140, 55, 71, 0.418);
+    font-size: 1.1rem;
+}
+
+footer {
+    background-color: #d6a400;
+    color: #030303;
+    padding: 20px 0px;
+    text-align: center;
+}

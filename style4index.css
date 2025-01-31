@@ -1,0 +1,145 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #88b1f2;
+    color: #0D0D0D;
+    font-family: "Cabin", sans-serif;
+    font-weight: 400;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+    background: linear-gradient(#A67683, #40592E);
+}
+
+header img {
+    width: 150px;
+    height: auto;
+    margin-bottom: 5px;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+nav a {
+    margin: 0 20px;
+    position: relative;
+    text-decoration: none;
+    color: #F2E0C9;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+nav a:hover {
+    color: #FFD700;
+}
+
+main {
+    padding: 20px;
+}
+
+main h1 {
+    font-size: 2rem;
+    color: #40592E;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+main p {
+    font-size: 1.2rem;
+    color: #6D6D6D;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#frase-de-efeito {
+    color: #8C3746;
+    font-weight: 600;
+    letter-spacing: 1px; 
+    text-shadow: 0px 0px 8px rgba(140, 55, 71, 0.418);
+    font-size: 1.1rem;
+}
+
+.video-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.video-container {
+    flex: 1 1 400px;
+    text-align: center;
+    transition: transform 0.3s ease;
+    overflow: hidden;
+    border-radius: 8px;
+    background: #ebd2aa;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.video-container:hover {
+    transform: translateY(-5px);
+}
+
+.thumbnail {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.3s;
+}
+
+.video-container:hover .thumbnail {
+    transform: scale(1.1);
+}
+
+.video-title {
+    padding: 15px;
+    margin: 0;
+    font-size: 1rem;
+    color: #8C3746;
+    transition: color 0.3s ease;
+    text-decoration: underline #8C3746;
+}
+
+.video-container:hover .video-title {
+    color: rgb(9, 145, 207);
+    text-decoration: underline rgb(9, 145, 207);
+    
+}
+
+#topo {
+    text-align: center;
+    padding-top: 20px;
+}
+
+#topo a {
+    color:#0D0D0D;
+    text-decoration: none;
+}
+
+#topo a:hover {
+    color:#40592E;
+}
+
+footer {
+    background-color: #2F4023;
+    color: #F2E0C9;
+    padding: 20px 0px;
+    text-align: center;
+}

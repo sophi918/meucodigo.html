@@ -1,81 +1,39 @@
-*{
+
+
+* {
     margin: 0;
-    padding: 0 0 0 0;
+    padding: 0;
     box-sizing: border-box;
-    font-family: lago de águia;
-    background-color: rgba(81, 15, 236, 0.836);
 }
 
-.nome Estudando a Disney{
-    color: rgba(40, 159, 206, 0.537);
-   
+body {
+    background-color: #c488f2;
+    color: #0D0D0D;
+    font-family: "Cabin", sans-serif;
+    font-weight: 400;
 }
 
-.center{
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 1280px;
-    margin:0 auto;
-    padding:0 2%;
-}
-
-header{
+header {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    align-items: left;
+    align-items: center;
     justify-content: center;
     padding: 20px 0;
-    background: rgb(0, 24, 75);
-
+    background: linear-gradient(#44006e, #b524a9);
 }
+
 header img {
-    width:150px;
+    width: 150px;
     height: auto;
-    margin-bottom: 0;
+    margin-bottom: 5;
     
 }
- 
-
-p {
-color: rgb(0, 0, 0);
-text-align: justify;
-}
-
-.texto-inicio{
-    margin-top: 100px;
-}
-
-.texto-inicio h1{
-    font-size: 50px;
-    color:rgba(75, 47, 201, 0.973) ;
-
-}
-
-.texto-inicio p{
-    margin: 20px 0;
-    color: preto;
-    font-size: 14px;
-    font-weight: bold;
-    text-align: justify;
-    
-}
-
-.texto-inicio h2{
-    color: rgba(75, 47, 201, 0.973);
-}
-
-.texto-inicio text{
-    text-align: justify;
-    font-weight:central;
-}
-
-
 
 nav {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: left;
 }
 
 nav a {
@@ -88,7 +46,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #cacbee;
+    color: #ffc800;
 }
 
 main {
@@ -104,9 +62,74 @@ main {
     font-size: 1.1rem;
 }
 
+h1 {
+    color:#592e57;
+    font-size: 2rem;
+    padding: 20px;
+}
+
+.main-container {
+    display: flex;
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.main-container h2 {
+    color:#8C3746;
+}
+
+.main-container p {
+    font-weight: 450;
+    color: #0D0D0D;
+    padding: 5px;
+}
+
+.main-block {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 200px; 
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #ebd2aa;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(17, 43, 15, 0.267);
+}
+
+.main-block a {
+    color: #F2E0C9;
+    background-color:#40592E;
+    max-width: 150px;
+    padding: 5px 12px;
+    border-radius: 15px;
+    font-weight: 500px;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+.main-block a:hover {
+    color: #0D0D0D;
+    background-color: #ffc800;
+}
+
+#topo {
+    padding-top: 20px;
+}
+
+#topo a {
+    color:#0D0D0D;
+    text-decoration: none;
+}
+
+#topo a:hover {
+    color:#40592E;
+}
+
 footer {
-    background-color: #d6a400;
-    color: #030303;
+    background: linear-gradient(#1a006e,#c68638);
+    color: #F2E0C9;
     padding: 20px 0px;
     text-align: center;
 }

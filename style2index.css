@@ -49,7 +49,7 @@ nav a:hover {
 
 main {
     padding: 20px;
-    text-align: left;
+    text-align: justify;
 }
 
 #frase-de-efeito {
@@ -65,13 +65,36 @@ h1 {
     font-size: 2rem;
     padding: 20px;
 }
+h2 {
+    color:#592e57;
+    font-size: 2rem;
+    padding: 15px;
+}
+h3 {
+    color:#592e57;
+    font-size: 2rem;
+    padding: 10px;
 
+
+
+}
 .main-container {
     display: flex;
     gap: 20px;
     max-width: 1000px;
     margin: 0 auto;
     flex-wrap: wrap;
+}
+
+.cast-container-member {
+    display: flex;
+}
+.cast-member img{
+    display: flex;
+    flex-direction: row;
+    height:auto;
+    width: 250px;
+    align-items: center;
 }
 
 .main-container h2 {

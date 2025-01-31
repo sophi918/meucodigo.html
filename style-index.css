@@ -51,7 +51,8 @@ nav a:hover {
 
 main {
     padding: 20px;
-    text-align: left;
+    text-align: justify;
+
 }
 
 #frase-de-efeito {
@@ -67,7 +68,11 @@ h1 {
     font-size: 2rem;
     padding: 20px;
 }
-
+#mickey img{ 
+    height:auto;
+    width: 650px;
+    align-items: center;
+}
 .main-container {
     display: flex;
     gap: 20px;

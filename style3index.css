@@ -65,7 +65,19 @@ h1 {
     font-size: 2rem;
     padding: 20px;
 }
+h2 {
+    color:#592e57;
+    font-size: 2rem;
+    padding: 15px;
+}
+h3 {
+    color:#592e57;
+    font-size: 2rem;
+    padding: 10px;
 
+
+
+}
 .main-container {
     display: flex;
     gap: 20px;
@@ -73,51 +85,27 @@ h1 {
     margin: 0 auto;
     flex-wrap: wrap;
 }
+
+.cast-container-member {
+    display: flex;
+}
 .cast-member img{
+    display: flex;
+    flex-direction: row;
     height:auto;
     width: 250px;
     align-items: center;
-}
-.main-container h2 {
-    color:#8C3746;
+    
+
 }
 
-.main-container p {
-    font-weight: 450;
-    color: #0D0D0D;
-    padding: 5px;
-}
 
-.main-block {
-    display: flex;
-    flex-direction: column;
-    flex: 1 1 200px; 
-    align-items: center;
-    justify-content: space-evenly;
-    background-color: #ebd2aa;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(17, 43, 15, 0.267);
-}
 
-.main-block a {
-    color: #F2E0C9;
-    background-color:#40592E;
-    max-width: 150px;
-    padding: 5px 12px;
-    border-radius: 15px;
-    font-weight: 500px;
-    text-decoration: none;
-    transition: all 0.5s;
-}
 
-.main-block a:hover {
-    color: #0D0D0D;
-    background-color: #ffc800;
-}
 
 #topo {
     padding-top: 20px;
+    text-align: center;
 }
 
 #topo a {

@@ -74,6 +74,8 @@ h1 {
     flex-wrap: wrap;
 }
 .cast-member img{
+    display: flex;
+    flex-direction: row;
     height:auto;
     width: 250px;
     align-items: center;
@@ -118,11 +120,12 @@ h1 {
 
 #topo {
     padding-top: 20px;
+    text-align: center;
 }
 
 #topo a {
     color:#0D0D0D;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 #topo a:hover {

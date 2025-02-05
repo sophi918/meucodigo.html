@@ -81,6 +81,17 @@ h1 {
     flex-wrap: wrap;
 }
 
+.cast-container-member {
+    display: flex;
+}
+.cast-member img{
+    display: flex;
+    flex-direction: row;
+    height:auto;
+    width: 250px;
+    align-items: center;
+}
+
 .main-container h2 {
     color:#8C3746;
 }
@@ -121,6 +132,7 @@ h1 {
 
 #topo {
     padding-top: 20px;
+    text-align: center;
 }
 
 #topo a {

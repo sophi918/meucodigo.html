@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: #c488f2;
+    background-color: #d755f4;
     color: #0D0D0D;
     font-family: "Cabin", sans-serif;
     font-weight: 400;
@@ -59,14 +59,39 @@ main {
     color: #8C3746;
     font-weight: 600;
     letter-spacing: 1px; 
-    text-shadow: 0px 0px 8px rgba(140, 55, 71, 0.418);
     font-size: 1.1rem;
+    text-align: center;
 }
 
 h1 {
     color:#592e57;
+    font-size: 2.8rem;
+    padding: 20px;
+    text-align: center;
+    text-shadow: 0px 0px 8px rgb(255, 255, 255);
+
+}
+h2{
+    color:#592e57;
+    font-size: 2.2rem;
+    padding: 20px;
+    text-align: align;
+   
+}
+h3{
+    color:#592e57;
     font-size: 2rem;
     padding: 20px;
+    text-align: align;
+    
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 2em;
+    margin-inline-start: 18px;
+    margin-inline-end: 5px;
+    unicode-bidi: isolate;
 }
 #mickey img{ 
     height:auto;
